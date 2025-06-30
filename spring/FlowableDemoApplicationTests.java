@@ -26,7 +26,7 @@ class FlowableDemoApplicationTests {
                 .addClasspathResource("process/01-基础篇/FirstFlow.bpmn20.xml")
                 .name("第一个流程图")
                 .deploy();// 部署的方法
-        System.out.println(deploy);
+        System.out.println(deploy.getId());
     }
 
 }
